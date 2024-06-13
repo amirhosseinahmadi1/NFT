@@ -608,6 +608,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -746,6 +750,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -762,6 +771,11 @@ video {
 .text-gray {
   --tw-text-opacity: 1;
   color: rgb(156 156 156 / var(--tw-text-opacity));
+}
+
+.text-green {
+  --tw-text-opacity: 1;
+  color: rgb(5 192 117 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
