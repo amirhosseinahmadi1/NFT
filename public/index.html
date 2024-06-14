@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="/dist/style.css">
-    <title>Document</title>
+
+    <title>NFT</title>
 </head>
-<body class="bg-black">
+<body class="bg-black font-">
 <section class="container">
     <div class="flex items-center justify-between mt-5 lg:mt-8">
-        <h1 class="text-white font-bold text-3xl">NFTYOU</h1>
+        <h1 data-aos="fade-right" class="text-white font-bold text-3xl">NFTYOU</h1>
 
-<ul class="lg:text-gray lg:flex lg:gap-32 lg:font-medium  ">
+<ul data-aos="fade-down" class="lg:text-gray lg:flex lg:gap-32 lg:font-medium  ">
 <span class="lg:text-white">  <li>Home</li> </span>  
     <li>About</li>
     <li>Shop</li>
     <li>Gallery</li>
 </ul>
-<button class="lg:text-white lg:bg-green lg:w-40 lg:h-12 lg:rounded-lg " type="button">Login</button>
+<button data-aos="fade-left" class="lg:text-white lg:bg-green lg:w-40 lg:h-12 lg:rounded-lg " type="button">Login</button>
 
 
 
-       <div class="flex flex-col gap-1 lg:hidden ">
+       <div data-aos="fade-left" class="flex flex-col gap-1 lg:hidden ">
         <hr class="bg-white w-14 h-2 rounded-xl">
         <hr  class="bg-white w-14 h-2 rounded-xl">
         <hr  class="bg-white w-14 h-2 rounded-xl">
@@ -29,23 +31,32 @@
     </div>
 
 
-<div>
-<img class="mt-5" src="/assets/img/Group 15.png" alt="">
-<h1 class="text-white font-bold text-6xl mt-6">
+<div class="flex flex-col items-start lg:flex  lg:flex-row-reverse lg:items-center lg:justify-between lg:mt-6">
+<img data-aos="zoom-out" class="mt-4 lg:w-[400px]" src="/assets/img/Group 15.png" alt="">
+<div class="lg:flex lg:flex-col">
+<h1 data-aos="fade-up"
+data-aos-duration="3000" class="text-white font-bold text-5xl mt-6 uppercase lg:text-6xl">
     Koala <br>
   <span class="text-green">Inelligence <br></span>  
     Agency
 </h1>
 
+<p class="text-gray mt-4 font-semibold lg:text-xl lg:mt-5">
+    A collection of 10,000 worldly <br> Koalas each with their unique <br> skillsets. Their
+</p>
 
+<div class="mt-3 flex gap-3 lg:mt-5">
+    <button class="bg-green text-white font-semibold h-9 w-32 rounded-md lg:w-36 lg:h-12 " type="button">Buy Now</button>
+    <button  class="bg-black text-white font-semibold h-9 w-32 rounded-md border-white border-solid border-2 lg:w-36 lg:h-12" type="button">More</button>
+</div>
 
-
-
-
+</div>
 
 </div>
 
 
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
